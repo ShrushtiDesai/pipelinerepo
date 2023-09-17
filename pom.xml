@@ -18,6 +18,11 @@
 
     <build>
         <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.9.4</version>
+        </plugin>
             <!-- Add your plugins here -->
         </plugins>
     </build>
