@@ -7,10 +7,14 @@
     <groupId>com.example</groupId>
     <artifactId>testpipeline</artifactId>
     <version>1.0</version>
+    
+    <name>testpipeline</name>
+    <packaging>war</packaging>
+    <description>a test pipeline to check if war file id genrated or not</description>
 
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>{java.version}</maven.compiler.source>
+        <maven.compiler.target>{java.version}</maven.compiler.target>
     </properties>
 
     <build>
